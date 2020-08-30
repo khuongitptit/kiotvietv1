@@ -1,0 +1,65 @@
+.summary {
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    top: 595px;
+    .total {
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        .tth {
+            position: absolute;
+            width: 99px;
+            height: 23px;
+            left: 6px;
+            top: 30px;
+
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            /* or 129% */
+
+            text-align: center;
+
+            color: #4f4f4f;
+        }
+        .total-quantity {
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            left: 109px;
+            top: 30px;
+
+            background: #ffffff;
+            border: 1px solid #bdbdbd;
+            box-sizing: border-box;
+            border-radius: 2px;
+        }
+        .total-money {
+            position: absolute;
+            width: 75px;
+            height: 18px;
+            left: 166px;
+            top: 30px;
+
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            /* identical to box height, or 129% */
+
+            display: flex;
+            align-items: center;
+            text-align: right;
+
+            color: #000000;
+        }
+    }
+    .description {
+        position: absolute;
+        top: 100px;
+    }
+}

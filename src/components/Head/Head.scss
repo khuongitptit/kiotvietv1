@@ -1,0 +1,50 @@
+.head {
+    position: relative;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: #ffffff;
+    height: 50px;
+    .logo {
+        position: absolute;
+        width: 70.86px;
+        left: 8px;
+        top: 13px;
+    }
+    .isBill {
+        position: absolute;
+        width: 66px;
+        height: 17px;
+        left: 122px;
+        top: 14px;
+
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        /* or 129% */
+
+        text-align: center;
+
+        color: #4f4f4f;
+    }
+    .toggleButton {
+        outline: none;
+        border: none;
+        position: absolute;
+        width: 25px;
+        height: 20px;
+        left: 215px;
+        top: 14px;
+        background: #02b875;
+        border-radius: 5px;
+    }
+    .divider {
+        position: absolute;
+        width: 249.01px;
+        height: 0px;
+        left: 0px;
+        top: 47px;
+
+        border: 1px solid #bdbdbd;
+    }
+}

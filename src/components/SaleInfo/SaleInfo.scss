@@ -1,0 +1,48 @@
+.saleInfo {
+    position: relative;
+    .customer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        .user-icon {
+            width: 20px;
+            position: absolute;
+            left: 0;
+            top: 4px;
+        }
+        .name {
+            width: 200px;
+            position: absolute;
+            left: 30px;
+            top: 4px;
+        }
+    }
+    .saleOptions {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        .dollar-icon {
+            width: 20px;
+            position: absolute;
+            top: 5px;
+            left: 0px;
+        }
+        .priceList {
+            position: absolute;
+            top: 5px;
+            left: 30px;
+        }
+        .saleChannel {
+            position: absolute;
+            top: 5px;
+            right: 20px;
+        }
+    }
+}
+.priceListSelect {
+    display: inline;
+}
+.priceListSelectHide {
+    display: none;
+}
